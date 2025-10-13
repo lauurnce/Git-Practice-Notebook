@@ -9,22 +9,20 @@ typedef struct {
     int top;
 } Stack;
 
-// Initialize the stack
+
 void initStack(Stack *s) {
     s->top = -1;
 }
 
-// Check if the stack is empty
+
 bool isEmpty(Stack *s) {
     return s->top == -1;
 }
 
-// Check if the stack is full
 bool isFull(Stack *s) {
     return s->top == MAX_SIZE - 1;
 }
 
-// Push an element onto the stack with input validation
 bool push(Stack *s, int value) {
     if (isFull(s)) {
         printf("Error: Stack overflow. Cannot push %d\n", value);
@@ -34,7 +32,6 @@ bool push(Stack *s, int value) {
     return true;
 }
 
-// Pop an element from the stack with input validation
 bool pop(Stack *s, int *value) {
     if (isEmpty(s)) {
         printf("Error: Stack underflow. Cannot pop.\n");
@@ -44,7 +41,6 @@ bool pop(Stack *s, int *value) {
     return true;
 }
 
-// Peek at the top element with input validation
 bool peek(Stack *s, int *value) {
     if (isEmpty(s)) {
         printf("Error: Stack is empty. Cannot peek.\n");
@@ -54,7 +50,6 @@ bool peek(Stack *s, int *value) {
     return true;
 }
 
-// Example usage
 int main() {
     Stack s;
     initStack(&s);
