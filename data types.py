@@ -58,18 +58,6 @@ dict_val = {"a": 1, "b": 2}
 show("dict", dict_val)
 print(" dict keys:", list(dict_val.keys()), "dict items:", list(dict_val.items()), "\n")
 
-# Callables & objects
-def example_function(x):
-    return x * 2
-
-class ExampleClass:
-    def __init__(self, name):
-        self.name = name
-    def __repr__(self):
-        return f"ExampleClass({self.name!r})"
-
-function_val = example_function
-instance_val = ExampleClass("demo")
 
 show("function", function_val)
 show("class instance", instance_val)
