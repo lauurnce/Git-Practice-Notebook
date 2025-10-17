@@ -51,5 +51,3 @@ function analyzeUsers(userList) {
 
     return report;
 }
-
-console.log(analyzeUsers(users));
