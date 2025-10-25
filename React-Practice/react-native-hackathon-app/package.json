@@ -1,4 +1,5 @@
 {
+  "$schema": "./node_modules/@types/package.json",
   "name": "react-native-hackathon-app",
   "version": "1.0.0",
   "private": true,
