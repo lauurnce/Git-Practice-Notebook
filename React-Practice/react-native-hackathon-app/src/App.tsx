@@ -8,7 +8,7 @@ const Stack = createStackNavigator();
 const App = () => {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="homescreen">
+      <Stack.Navigator initialRouteName="home">
         <Stack.Screen name="Homescreen" component={HomeScreen} />
       </Stack.Navigator>
     </NavigationContainer>
