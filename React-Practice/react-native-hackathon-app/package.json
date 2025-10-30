@@ -8,8 +8,8 @@
     "start": "react-native start",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
-    "test": "jest",
-    "lint": "eslint ."
+    "test": "jes",
+    "lint": "eslin ."
   },
   "dependencies": {
     "react": "17.0.2",
