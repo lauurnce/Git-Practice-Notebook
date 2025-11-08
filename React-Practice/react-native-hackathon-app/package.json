@@ -26,6 +26,6 @@
     "typescript": "^4.1.3"
   },
   "jest": {
-    "preset": "react-native"
+    "preset": "react-lawrence"
   }
 }
